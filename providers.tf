@@ -12,7 +12,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-remote-backend"
+    bucket = "terraform-remote-backend-ilyass"
     key    = "remote_s3_backend/state.tfstate"
     region = "eu-west-1"
   }
